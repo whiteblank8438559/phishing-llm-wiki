@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="以五篇可追溯資料整理的網路釣魚訊息入門簡報：辨識警訊、獨立查證與誤點後處理。">
+  <title>如何辨識網路釣魚訊息｜教學簡報</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#slides">跳至簡報內容</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#slide-1" aria-label="返回簡報首頁"><span class="brand-icon" aria-hidden="true">✳</span><span>辨識釣魚訊息 <small>教學簡報</small></span></a>
+      <span class="topbar-note">先停一下，再查證。</span>
+      <a class="wiki-link" href="../README.md">查看 Wiki 文字資料 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="slides" class="deck">
+    <section class="slide slide-cover" id="slide-1" aria-label="投影片 1，共 7 張">
+      <div class="cover-copy">
+        <p class="eyebrow"><span></span> 網路安全 · 初學者入門</p>
+        <h1>這封通知，<br><em>真的嗎？</em></h1>
+        <p class="cover-lead">用一套簡單的查證方法，辨認可疑的電子郵件與簡訊。你不需要立刻判定真假，只需要先避免被訊息推著走。</p>
+        <div class="cover-goals" aria-label="學習目標"><span>認出警訊</span><span>獨立查證</span><span>知道怎麼處理</span></div>
+        <button class="primary-button" type="button" data-next>開始學習 <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="cover-visual" aria-hidden="true">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="phone-frame">
+          <div class="phone-top"><span>訊息</span><span>•••</span></div>
+          <div class="message-bubble"><span class="message-dot"></span><strong>帳戶安全通知</strong><p>請立即點擊連結完成驗證，否則將暫停使用。</p><span class="message-link">立即處理 →</span></div>
+          <div class="phone-question">先別急著點。</div>
+        </div>
+        <span class="visual-spark spark-one">✦</span><span class="visual-spark spark-two">✧</span>
+      </div>
+      <p class="slide-meta cover-meta">教學示意訊息，非真實通知</p>
+    </section>
+
+    <section class="slide" id="slide-2" aria-label="投影片 2，共 7 張">
+      <div class="slide-heading"><p class="eyebrow"><span></span> 01 · 先理解</p><h2>網路釣魚是什麼？</h2><p>有人用看似可信的訊息或網站，引導你交出資料，或打開可能有害的連結與附件。</p></div>
+      <div class="flow-grid" aria-label="常見釣魚流程">
+        <div class="flow-step"><span class="flow-number">01</span><strong>冒用身分</strong><p>假裝是銀行、政府、公司，甚至熟人。</p></div>
+        <div class="flow-step"><span class="flow-number">02</span><strong>製造壓力</strong><p>說帳戶異常、付款失敗，要求立刻處理。</p></div>
+        <div class="flow-step"><span class="flow-number">03</span><strong>誘導操作</strong><p>要你點連結、下載附件或聯絡假客服。</p></div>
+        <div class="flow-step"><span class="flow-number">04</span><strong>取得資料</strong><p>企圖取得密碼、驗證碼或財務資訊。</p></div>
+      </div>
+      <div class="callout"><span aria-hidden="true">✳</span><p>不必每封訊息都具備全部步驟。先辨認風險，再查證來源。</p></div>
+      <p class="slide-meta">Wiki：<a href="../topics/what-is-phishing.md">釣魚是什麼</a> · 資料：<a href="https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams" target="_blank" rel="noopener noreferrer">S01 FTC</a>、<a href="https://support.google.com/mail/answer/8253?hl=zh-Hant" target="_blank" rel="noopener noreferrer">S04 Google</a></p>
+    </section>
+
+    <section class="slide" id="slide-3" aria-label="投影片 3，共 7 張">
+      <div class="slide-heading"><p class="eyebrow"><span></span> 02 · 看出警訊</p><h2>一封訊息，先看這五點。</h2><p>這些是提高警覺的線索；單一徵兆不能直接證明真假。</p></div>
+      <div class="warning-layout">
+        <ol class="warning-list">
+          <li><span>01</span><div><strong>催促立刻行動</strong><p>「現在驗證」「否則停用」等語氣。</p></div></li>
+          <li><span>02</span><div><strong>索取敏感資訊</strong><p>密碼、驗證碼、卡號或銀行資料。</p></div></li>
+          <li><span>03</span><div><strong>要求點擊或下載</strong><p>陌生連結、短網址、意外附件。</p></div></li>
+          <li><span>04</span><div><strong>假冒熟悉的人或單位</strong><p>名稱、標誌與親友帳號都可能被冒用。</p></div></li>
+          <li><span>05</span><div><strong>資訊前後不一致</strong><p>寄件地址、連結目標與聲稱的身分對不上。</p></div></li>
+        </ol>
+        <aside class="example-card" aria-label="教學示意訊息"><span class="example-label">教學示意 · 非真實訊息</span><div class="example-message"><p class="example-sender">帳戶服務中心</p><p>您的帳戶將於今日停用，請立刻從下方連結更新付款資料。</p><span class="fake-link">立即驗證</span></div><div class="example-analysis"><strong>你看到哪些警訊？</strong><p>急迫期限、要求付款資料、把操作導向訊息內的連結。</p></div></aside>
+      </div>
+      <p class="slide-meta">Wiki：<a href="../topics/warning-signs.md">可疑訊息的警訊</a> · 資料：S01–S05，詳見最後一張</p>
+    </section>
+
+    <section class="slide slide-verify" id="slide-4" aria-label="投影片 4，共 7 張">
+      <div class="slide-heading"><p class="eyebrow"><span></span> 03 · 實際怎麼做</p><h2>暫停、查看、獨立查證。</h2><p>查證時，不使用可疑訊息提供的網址、電話或客服帳號。</p></div>
+      <div class="verify-grid">
+        <article class="verify-step"><span class="step-symbol" aria-hidden="true">Ⅱ</span><span class="step-count">STEP 1</span><h3>暫停</h3><p>先不點連結、不下載附件，也不輸入密碼或驗證碼。</p></article>
+        <article class="verify-step"><span class="step-symbol" aria-hidden="true">⌕</span><span class="step-count">STEP 2</span><h3>查看</h3><p>檢查寄件者、實際網址與訊息要求。外觀像官方，不等於已被證實。</p></article>
+        <article class="verify-step"><span class="step-symbol" aria-hidden="true">✓</span><span class="step-count">STEP 3</span><h3>獨立查證</h3><p>自己開官方 App、輸入已知網址，或從官網找客服確認。</p></article>
+      </div>
+      <div class="callout callout-strong"><span aria-hidden="true">→</span><p>連熟人帳號傳來的連結，也可以用平常的方式向本人確認。</p></div>
+      <p class="slide-meta">Wiki：<a href="../topics/verify-before-click.md">點擊前的查證流程</a> · 資料：<a href="https://www.npa.gov.tw/ch/app/news/view?id=2139&amp;module=news&amp;serno=dc96426e-60ee-4b56-8fc2-a8c1f8aabf1d" target="_blank" rel="noopener noreferrer">S02 警政署</a>、<a href="https://www.police.ntpc.gov.tw/cp-3344-121607-1.html" target="_blank" rel="noopener noreferrer">S03 新北市警局</a></p>
+    </section>
+
+    <section class="slide" id="slide-5" aria-label="投影片 5，共 7 張">
+      <div class="slide-heading"><p class="eyebrow"><span></span> 04 · 套用到案例</p><h2>一則假冒資安機關的簡訊。</h2><p>資通安全署曾公布冒名簡訊案例：相近的機關名稱、急迫語氣，加上要求下載的短網址。</p></div>
+      <div class="case-layout">
+        <div class="case-message"><span class="example-label">依官方案例改寫 · 非原始簡訊</span><div class="sms-bubble"><p>因應資安事件，請立即下載防護元件完成更新，以免影響使用。</p><span>〔短網址，此處不提供可點連結〕</span></div><div class="case-stamp">先停一下</div></div>
+        <div class="case-clues"><h3>把三步法用上去</h3><ol><li><strong>暫停</strong><span>不要點短網址，也不要安裝訊息要求的軟體。</span></li><li><strong>查看</strong><span>注意名稱相似、緊急下載要求等線索。</span></li><li><strong>獨立查證</strong><span>自己找資通安全署官方資訊；在臺灣也可撥 165 諮詢。</span></li></ol></div>
+      </div>
+      <p class="slide-meta">Wiki：<a href="../topics/government-text-case.md">官方案例整理</a> · 原始資料：<a href="https://moda.gov.tw/ACS/press/news/press/20322" target="_blank" rel="noopener noreferrer">S05 資通安全署</a></p>
+    </section>
+
+    <section class="slide" id="slide-6" aria-label="投影片 6，共 7 張">
+      <div class="slide-heading"><p class="eyebrow"><span></span> 05 · 分情況處理</p><h2>如果已經點了，怎麼辦？</h2><p>先分清楚自己做到哪一步，後續處理才不會混在一起。</p></div>
+      <div class="response-grid">
+        <article class="response-card"><span class="response-stage">情況 A</span><h3>只收到，沒點擊</h3><p>不回覆、不點連結或附件。用獨立管道查證，可用郵件服務的回報功能，再刪除可疑訊息。</p></article>
+        <article class="response-card"><span class="response-stage">情況 B</span><h3>已點擊，沒輸入</h3><p>停止在該頁操作，改從已知的官方網站或 App 查證。若懷疑下載有害軟體，更新防護並掃描裝置。</p></article>
+        <article class="response-card response-card-alert"><span class="response-stage">情況 C</span><h3>已提供資料</h3><p>從真正的官方管道聯絡相關服務或金融機構。若交出密碼，從官方登入頁變更並檢查帳戶活動；在臺灣可撥 165 諮詢。</p></article>
+      </div>
+      <div class="callout"><span aria-hidden="true">ⓘ</span><p>Gmail 的「回報為網路釣魚郵件」是 Gmail 專用操作；美國 FTC 的通報管道不直接套用到臺灣。</p></div>
+      <p class="slide-meta">Wiki：<a href="../topics/respond-and-report.md">收到或誤點後處理</a> · 資料：<a href="https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams" target="_blank" rel="noopener noreferrer">S01 FTC</a>、<a href="https://support.google.com/mail/answer/8253?hl=zh-Hant" target="_blank" rel="noopener noreferrer">S04 Google</a>、<a href="https://moda.gov.tw/ACS/press/news/press/20322" target="_blank" rel="noopener noreferrer">S05 資通安全署</a></p>
+    </section>
+
+    <section class="slide slide-finish" id="slide-7" aria-label="投影片 7，共 7 張">
+      <div class="slide-heading"><p class="eyebrow"><span></span> 06 · 試著判斷</p><h2>現在，換你做決定。</h2><p>收到「帳戶異常，立即點此驗證」的簡訊，第一步應該是什麼？</p></div>
+      <div class="quiz" role="group" aria-label="選擇第一步">
+        <button type="button" class="quiz-option" data-answer="wrong">立刻點訊息中的連結</button>
+        <button type="button" class="quiz-option" data-answer="correct">先停下，自己開官方 App 或網站查證</button>
+        <button type="button" class="quiz-option" data-answer="wrong">回覆簡訊詢問對方是不是真的</button>
+      </div>
+      <p class="quiz-feedback" id="quiz-feedback" role="status" aria-live="polite">選一個答案，看看你是否掌握了「獨立查證」。</p>
+      <div class="finish-bottom"><div><strong>記住這三個動作</strong><p>暫停 · 查看 · 獨立查證</p></div><button type="button" class="restart-button" data-restart>從頭再看一次 ↺</button></div>
+      <div class="source-list"><strong>資料來源</strong><a href="https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams" target="_blank" rel="noopener noreferrer">S01 FTC</a><a href="https://www.npa.gov.tw/ch/app/news/view?id=2139&amp;module=news&amp;serno=dc96426e-60ee-4b56-8fc2-a8c1f8aabf1d" target="_blank" rel="noopener noreferrer">S02 警政署</a><a href="https://www.police.ntpc.gov.tw/cp-3344-121607-1.html" target="_blank" rel="noopener noreferrer">S03 新北市警局</a><a href="https://support.google.com/mail/answer/8253?hl=zh-Hant" target="_blank" rel="noopener noreferrer">S04 Google</a><a href="https://moda.gov.tw/ACS/press/news/press/20322" target="_blank" rel="noopener noreferrer">S05 資通安全署</a></div>
+      <p class="slide-meta">教學內容由 <a href="../README.md">LLM Wiki</a> 整理；這是辨識練習，不取代官方查證。</p>
+    </section>
+  </main>
+
+  <nav class="deck-nav" aria-label="簡報導覽">
+    <button class="nav-button" id="prev-slide" type="button" aria-label="上一張投影片">← <span>上一張</span></button>
+    <div class="progress-area"><span id="slide-counter" aria-live="polite">1 / 7</span><div class="progress-track" aria-hidden="true"><div id="progress-fill"></div></div></div>
+    <button class="nav-button nav-next" id="next-slide" type="button" aria-label="下一張投影片"><span>下一張</span> →</button>
+  </nav>
+  <script src="main.js" defer></script>
+</body>
+</html>

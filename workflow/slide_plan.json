@@ -1,0 +1,86 @@
+{
+  "title": "如何辨識網路釣魚訊息",
+  "audience": "沒有資安背景的初學者",
+  "source_of_truth": "本專案的 LLM Wiki；若與原始資料不一致，回原始資料查證",
+  "slides": [
+    {
+      "title": "開場與學習目標",
+      "learning_objective": "理解本次要學會辨識、查證與處理",
+      "wiki_page": "PLAN.md",
+      "source_ids": [],
+      "wiki_markdown": ""
+    },
+    {
+      "title": "什麼是網路釣魚？",
+      "learning_objective": "說出釣魚訊息的目的與常見媒介",
+      "wiki_page": "topics/what-is-phishing.md",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S02"
+      ],
+      "wiki_markdown": "# 網路釣魚是什麼？\n\n網路釣魚是利用看似可信的訊息或網站，引導人交出密碼、帳號、驗證碼或財務資訊，或點開可能有害的連結與附件。常見媒介包括電子郵件和簡訊；網站外觀或寄件者名稱可能被冒用。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md)\n\n## 這份 Wiki 要解決的問題\n\n讀者不用先判定訊息「百分之百是假」，而是先辨認是否有風險，暫停點擊，改用自己找到的官方管道查證。[S01](../sources/S01-ftc-overview.md) [S02](../sources/S02-npa-links.md)\n\n## 接著閱讀\n\n[可疑訊息的警訊](warning-signs.md) → [點擊前的查證流程](verify-before-click.md) → [收到或誤點後怎麼處理](respond-and-report.md)"
+    },
+    {
+      "title": "辨認五類警訊",
+      "learning_objective": "找出催促、冒名、索取資料與可疑連結等警訊",
+      "wiki_page": "topics/warning-signs.md",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S05",
+        "S02",
+        "S03"
+      ],
+      "wiki_markdown": "# 可疑訊息的警訊\n\n以下徵兆會提高風險，但**單一徵兆不能單獨證明訊息真偽**；仍須以獨立管道查證。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md)\n\n1. **催促立刻行動**：例如聲稱帳戶即將停用、付款異常或安全元件必須馬上更新。[S01](../sources/S01-ftc-overview.md) [S05](../sources/S05-acs-impersonation.md)\n2. **要求敏感資訊**：索取密碼、信用卡資料、銀行資訊或驗證碼。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md)\n3. **要求點連結、下載或加入客服**：尤其是短網址、意外附件、陌生客服帳號或訊息內的付款頁。[S02](../sources/S02-npa-links.md) [S05](../sources/S05-acs-impersonation.md)\n4. **冒用熟悉身分**：公司、政府、親友名稱與商標都可能被模仿；親友帳號也可能遭盜用。[S02](../sources/S02-npa-links.md) [S04](../sources/S04-google-gmail.md)\n5. **網址或寄件資訊不一致**：顯示名稱和實際寄件地址、連結文字與實際目標，或網站名稱與真正網域不相符。[S03](../sources/S03-ntpc-url.md) [S04](../sources/S04-google-gmail.md)\n\n警訊出現時，下一步不是憑直覺判定，而是照[點擊前的查證流程](verify-before-click.md)處理。"
+    },
+    {
+      "title": "暫停、查看、獨立查證",
+      "learning_objective": "不用訊息內的管道，改從官網或官方 App 確認",
+      "wiki_page": "topics/verify-before-click.md",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S03",
+        "S04",
+        "S02"
+      ],
+      "wiki_markdown": "# 點擊前的查證流程\n\n## 暫停 → 查看 → 獨立查證\n\n1. **暫停**：先不要點開訊息內的連結、附件，也不要提供密碼、驗證碼或付款資訊。[S01](../sources/S01-ftc-overview.md) [S05](../sources/S05-acs-impersonation.md)\n2. **查看**：辨認訊息宣稱的單位與要求，檢查寄件資訊和連結目標是否一致。網址有沒有像官方網址不是充分證據；假網址可能用相似字母或數字混淆。[S03](../sources/S03-ntpc-url.md) [S04](../sources/S04-google-gmail.md)\n3. **獨立查證**：不要用訊息內給的電話、網站或客服。自行開啟已知的官方 App、輸入已知網址，或從官網找客服聯絡方式，再確認是否真有該通知。[S01](../sources/S01-ftc-overview.md) [S02](../sources/S02-npa-links.md) [S03](../sources/S03-ntpc-url.md)\n4. **不確定就停止操作**：即使訊息來自熟人帳號，也應使用平常的聯絡方式向本人確認。[S02](../sources/S02-npa-links.md)\n\n### 迷你例子\n\n收到「你的帳戶將被停用，立刻從此連結驗證」：先不點連結，自己開啟該服務的官方 App 或已知網址查看帳戶通知；若仍有疑問，從官網聯絡客服。[S01](../sources/S01-ftc-overview.md) [S02](../sources/S02-npa-links.md)\n\n若已經點開，改讀[收到或誤點後怎麼處理](respond-and-report.md)。"
+    },
+    {
+      "title": "案例練習：假冒資安機關",
+      "learning_objective": "把查證流程用於官方公布的案例",
+      "wiki_page": "topics/government-text-case.md",
+      "source_ids": [
+        "S05",
+        "S01",
+        "S04"
+      ],
+      "wiki_markdown": "# 案例：假冒資安機關的簡訊\n\n資通安全署曾公開澄清：有人冒用相近機關名稱，假稱需要緊急下載資安防護元件，並附短網址。這是依官方公布案例整理的文字摘要，並非原始簡訊的逐字轉錄。[S05](../sources/S05-acs-impersonation.md)\n\n## 將查證流程用在案例上\n\n1. **暫停**：訊息要求「立即」下載，先不要點短網址或安裝軟體。[S05](../sources/S05-acs-impersonation.md)\n2. **查看**：比對機關名稱是否被改字、訊息是否要求提供帳密或進行轉帳；這些都是警訊。[S05](../sources/S05-acs-impersonation.md)\n3. **獨立查證**：自行尋找資通安全署官方資訊，或在臺灣撥 165；不依簡訊內的聯絡方式回覆。[S05](../sources/S05-acs-impersonation.md)\n4. **回到一般規則**：這個案例有假冒機關、急迫語氣和短網址，但其他釣魚訊息未必具備完全相同的特徵。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md)\n\n[再看其他警訊](warning-signs.md) · [收到或誤點後怎麼處理](respond-and-report.md)"
+    },
+    {
+      "title": "收到或誤點後怎麼辦？",
+      "learning_objective": "依是否點擊或提供資料分流處理",
+      "wiki_page": "topics/respond-and-report.md",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S05"
+      ],
+      "wiki_markdown": "# 收到或誤點後怎麼處理\n\n依實際情況分流，避免把「收到訊息」與「已交出資料」混為一談。\n\n| 狀況 | 下一步 |\n| --- | --- |\n| **只收到、未點擊** | 不回覆、不點連結或附件；從獨立官方管道查證。可使用郵件服務的檢舉功能，之後刪除可疑訊息。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md) |\n| **已點擊，但未輸入資料** | 停止在該頁操作，不輸入密碼或驗證碼，改從已知官方網站或 App 查證。若懷疑下載了不明軟體，更新安全軟體並掃描裝置。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md) |\n| **已輸入密碼、金融或個人資料** | 立即使用真正的官方網站／App 聯絡相應服務與金融機構，依外洩資料處理；在臺灣可撥 165 諮詢查證。若是帳戶密碼，從真正的登入頁變更密碼並檢查帳戶活動。[S01](../sources/S01-ftc-overview.md) [S04](../sources/S04-google-gmail.md) [S05](../sources/S05-acs-impersonation.md) |\n\n## 回報的適用範圍\n\n- Gmail 電腦版可在郵件「更多」選單選「回報為網路釣魚郵件」；其他郵件服務的操作方式不同。[S04](../sources/S04-google-gmail.md)\n- 臺灣讀者若遇可疑詐騙簡訊或來電，可撥 165 諮詢。[S05](../sources/S05-acs-impersonation.md)\n- FTC 提到的美國專用回報網站與簡訊轉寄號碼不直接當成臺灣通用管道。[S01](../sources/S01-ftc-overview.md)\n\n回到[點擊前的查證流程](verify-before-click.md) · 查看[政府簡訊案例](government-text-case.md)"
+    },
+    {
+      "title": "練習與重點回顧",
+      "learning_objective": "將三步查證法套用於可疑訊息",
+      "wiki_page": "AUDIT_LOG.md",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "wiki_markdown": ""
+    }
+  ]
+}
